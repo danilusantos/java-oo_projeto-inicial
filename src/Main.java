@@ -5,11 +5,15 @@ public class Main {
 
         int anoDeLancamento = 2022;
         System.out.println("Ano de lançamento: " + anoDeLancamento);
-
         boolean incluidoNoPlano = false;
-        System.out.println("Incluido no plano: " + (incluidoNoPlano ? "Sim" : "Não"));
-
         double notaDoFilme = 8.1;
-        System.out.println("Nota do filme: " + notaDoFilme);
+
+//        Média calculada pelas três notas
+        double media = (9.8 + 6.3 + 8.0) / 3;
+//        System.out.println(media);
+
+        String sinopse;
+        sinopse = "Filme de aventura com galã dos anos 80";
+        System.out.println(sinopse);
     }
 }
